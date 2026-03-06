@@ -1,0 +1,156 @@
+label,message
+fraud,Your UPI ID has been blocked. Complete KYC verification immediately at bit.ly/upi-kyc to avoid service disruption.
+fraud,"URGENT: Rs.9,999 will be debited from your account. To cancel this transaction call 9876543210 immediately."
+fraud,"Dear customer, your PhonePe wallet is suspended. Click here to verify: http://phonpe-kyc.in/verify"
+fraud,"Congratulations! You have received Rs.50,000 in your UPI account. Enter your UPI PIN to claim: paytm-reward.co.in"
+fraud,Your Google Pay account will be deactivated in 24 hours. Update KYC now: gpay-kyc-update.com
+fraud,SBI ALERT: Suspicious login detected on your account. Call our fraud helpline 8800XXXXXX to secure your account.
+fraud,"Dear UPI user, your account limit has been upgraded to Rs.1,00,000. Confirm by sharing your OTP sent to registered mobile."
+fraud,"Your BHIM UPI transaction of Rs.15,000 is on hold. Verify your details at bhim-verify.net to release funds."
+fraud,"We are crediting Rs.2,500 cashback to your Paytm. Enter PIN to receive: paytm-cashback.xyz"
+fraud,NPCI: Your UPI handle will expire today. Re-register at npci-upi.online to continue transactions.
+fraud,"Your electricity bill payment failed. Pay Rs.1,450 now to avoid disconnection. Click: bill-pay-urgent.com"
+fraud,"Income Tax Refund of Rs.18,500 approved. Share your UPI ID and bank details to receive amount immediately."
+fraud,"GPay: You won Rs.1,000 in our lucky draw. Claim by entering your UPI PIN at googlepay-offer.in"
+fraud,HDFC Bank: Your net banking access will be blocked. Verify PAN card details now: hdfc-secure.co
+fraud,"Dear customer send Rs.1 to this UPI ID to receive Rs.5,000 back as part of our testing reward program: reward@ybl"
+fraud,Your FASTag wallet is low. Recharge now to avoid penalty. Pay via this link: fastag-recharge.net/urgent
+fraud,Amazon Pay: Your KYC is incomplete. Account will be suspended in 2 hours. Update: amazon-pay-kyc.com
+fraud,"IRCTC: Your ticket booking refund of Rs.3,200 is ready. Share UPI PIN to process: irctc-refund.in"
+fraud,Congratulations! BSNL lottery winner. You have won Rs.25 Lakhs. Send Rs.500 processing fee to claim@upi
+fraud,Your Aadhaar linked bank account shows suspicious activity. Block it now: aadhaar-bank-secure.com
+fraud,"PM Kisan Samman Nidhi: Rs.6,000 ready for transfer. Verify your UPI ID at pmkisan-gov.in.xyz"
+fraud,Your mutual fund SIP payment failed. Avoid penalty by paying via: sip-payment-now.com/urgent
+fraud,"OTP for UPI transaction Rs.49,999 to unknown@paytm is 784321. Do NOT share with anyone."
+fraud,"Flipkart: Your order refund Rs.2,199 failed. Re-enter bank details at flipkart-refund-portal.com"
+fraud,Dear user your Jio recharge failed. Your number will be deactivated. Recharge now: jio-recharge-urgent.net
+fraud,"Instant loan approved! Rs.50,000 in your account within 10 minutes. No documents needed. Download: QuickCash app"
+fraud,"CashBus: Your loan of Rs.20,000 is approved. Download now and get money instantly. Zero interest first month."
+fraud,"Urgent: Your EasyLoan EMI is overdue. Pay Rs.3,500 immediately or legal action will be taken against you."
+fraud,"LoanPe App: Pre-approved personal loan Rs.1,00,000 at 0% interest for 3 months. Apply now: loanpe.apk"
+fraud,"RupeeFast: Get Rs.10,000 in 5 minutes. Only Aadhaar required. No CIBIL check. Download: rupeefast.in/app"
+fraud,"You are eligible for Rs.75,000 instant loan. Our agent will call you. Keep Aadhaar and PAN ready."
+fraud,"NOTICE: Your MoneyView loan account is overdue. Pay Rs.8,900 now to avoid CIBIL score damage and legal notice."
+fraud,"KreditBee clone alert: You have been selected for instant Rs.30,000 loan. Share Aadhaar OTP to disburse."
+fraud,"CashMama App: Borrow Rs.5,000 today, repay Rs.5,200 next month. Install: cashmama-loan.apk"
+fraud,"Your loan application is approved. To disburse Rs.40,000 pay security deposit of Rs.999 first."
+fraud,"Loan recovery agent will visit your home tomorrow if Rs.12,000 is not paid today. Contact: 9XXXXXXXXX"
+fraud,"We will send your morphed photos to all your contacts if loan of Rs.5,000 is not repaid by tonight."
+fraud,Dear customer your loan app account has been hacked. Share OTP to secure your account immediately.
+fraud,"InstaCash: No income proof needed. Rs.15,000 loan in 15 minutes. Only selfie and Aadhaar required."
+fraud,"Your loan is approved. Before disbursement pay GST amount of Rs.1,180 to this UPI: gst@cashfast"
+fraud,This is CBI officer speaking. Your mobile number is involved in money laundering. Call back: 011-XXXXXXXX
+fraud,TRAI: Your mobile number will be disconnected in 2 hours due to illegal activities. Press 9 to speak to officer.
+fraud,Your Aadhaar card is being misused for opening 4 bank accounts. Call cybercrime helpline: 9XX-XXXXXXX
+fraud,Mumbai Police Cyber Cell: A complaint has been filed against your UPI ID. Appear at station or call: 9XXXXXXXXX
+fraud,"You have a pending court case. Pay fine of Rs.5,000 via UPI to avoid arrest warrant: court-fine@upi"
+fraud,ED Office: Your bank account is under investigation. Cooperate by sharing account details to avoid arrest.
+fraud,Your SIM card will be blocked as per DOT order. Call 198 immediately to avoid disconnection.
+fraud,This is your bank manager. We need to verify your account. Please share your card number and CVV.
+fraud,"ICICI Bank: We detected a fraud transaction of Rs.45,000. To reverse it share the OTP you just received."
+fraud,Customs Department: A parcel in your name has been seized containing drugs. Pay clearance fee to release.
+fraud,Amazon delivery: Your package is held at customs. Pay Rs.299 duty charge: amazon-customs-pay.com
+fraud,"COVID relief fund: You are eligible for Rs.4,000 government aid. Register at covid-relief-india.xyz"
+fraud,Your Voter ID card has an error. Update details at voterportal-eci.co to avoid cancellation.
+fraud,RBI Governor office: Your account has been flagged. Cooperate with investigation or face legal action.
+fraud,"Your PAN card is linked to illegal transactions. Pay penalty of Rs.10,000 to avoid arrest: pan-fine.in"
+ham,UPI transaction of Rs.500 to Zomato India successful. Ref no: 234567890123
+ham,"Rs.1,200 debited from your account via UPI to Amazon Seller Services. UTR: 3456789012"
+ham,"You have received Rs.2,000 from Rahul Kumar via Google Pay."
+ham,Your Paytm wallet has been credited with Rs.500 cashback on recharge.
+ham,UPI payment of Rs.350 to BigBasket successful. Thank you for shopping.
+ham,"HDFC Bank: Rs.15,000 transferred via NEFT to Savings Account XXXXXX1234. Available balance: Rs.45,230."
+ham,"Your SBI account is credited with salary Rs.42,000. Available balance: Rs.58,340."
+ham,Swiggy order placed. Rs.299 debited via UPI. Order will arrive by 7:30 PM.
+ham,IRCTC booking confirmed. PNR: 4XXXXXXX. Train: 12345. Journey date: 15-Mar-2026.
+ham,Your FASTag recharge of Rs.500 is successful. Current balance: Rs.750.
+ham,PhonePe: Rs.800 sent to your friend successfully. Transaction ID: T2025XXXXXX
+ham,"Electricity bill payment of Rs.1,340 successful. Consumer no: 1234567. Next due: 15 April."
+ham,"Your ATM withdrawal of Rs.5,000 at SBI ATM, Connaught Place on 05-Mar-2026."
+ham,OTP for login to HDFC NetBanking is 456789. Valid for 10 minutes. Do not share.
+ham,"Your credit card bill of Rs.12,450 is due on 15th March. Pay now to avoid interest charges."
+ham,"Fixed deposit of Rs.50,000 matured. Amount credited to your savings account."
+ham,"Your EMI of Rs.8,500 for home loan has been debited on 05-Mar-2026."
+ham,"Mutual fund SIP of Rs.2,000 debited from your account. Units allocated: 12.345"
+ham,"Your cheque no. 123456 for Rs.25,000 has been cleared."
+ham,Account statement for Feb 2026 is ready. Login to net banking to download.
+ham,Your Jio recharge of Rs.239 is successful. Validity: 28 days. Data: 1.5GB/day.
+ham,Your Airtel postpaid bill of Rs.499 for Feb 2026 is generated. Due date: 20th March.
+ham,Order #405-XXXXXXX-XXXXXXX shipped. Expected delivery: 8th March. Track: amzn.in/XXXXX
+ham,Your Ola ride is confirmed. Driver: Rajesh Kumar. OTP: 4521. Car: MH12AB1234
+ham,BookMyShow: 2 tickets confirmed for RRR at PVR Cinemas on 10-Mar-2026 at 6:30 PM.
+ham,"Your EPF balance as on 28-Feb-2026 is Rs.1,45,320. Login to EPFO portal for details."
+ham,"Reminder: Your LIC premium of Rs.12,000 is due on 15-Mar-2026."
+ham,DigiLocker: Your driving licence has been successfully linked to your account.
+ham,"Your income tax return for AY 2025-26 has been processed. Refund of Rs.8,200 initiated."
+ham,Swiggy Instamart: Your order of groceries will arrive in 10 minutes. Order ID: #XXXXXX
+ham, Rs.1500 paid to Myntra via UPI. Order confirmed.
+ham, Your HDFC account credited Rs.25000. Salary March 2026.
+ham, Zomato order placed. Rs.349 debited via PhonePe successfully.
+ham, GPay: Rs.500 sent to Mom successfully.
+ham, Your Airtel recharge of Rs.299 successful. Valid 28 days.
+ham, ICICI Bank: Rs.5000 withdrawn from ATM on 06-Mar-2026.
+ham, Your Swiggy order is confirmed. Rs.280 paid via UPI.
+ham, BigBasket order delivered. Rs.1200 debited successfully.
+ham, Ola ride completed. Rs.180 paid via Google Pay.
+ham, Your Amazon order has been shipped. Expected delivery 8-Mar.
+fraud, Hello sir I sent you money by mistake please approve the request so I can reverse it
+fraud, Sir galti se aapke account mein paise chale gaye hain please return kar do
+fraud, I accidentally sent Rs.5000 to your UPI please send it back urgently
+fraud, Mujhe galti se wrong UPI pe payment ho gayi please refund karo
+fraud, Please accept this UPI request I sent money to wrong number by mistake
+ham, Rs.500 received from Ayush via Google Pay successfully
+ham, UPI collect request of Rs.200 from Rahul declined successfully
+ham, You have declined the UPI collect request successfully
+fraud, Bhai galti se aapka UPI scan kar diya please approve karo wapas le lunga
+fraud, Wrong number pe payment ho gaya please accept the collect request
+fraud, Sir please approve my UPI request I will explain later it is urgent
+fraud, My son is in hospital I accidentally sent you money please return it
+fraud, Please accept Rs.1 collect request to verify your UPI then I will send full amount
+fraud, Aapko Rs.10000 prize mila hai collect request accept karo
+fraud, Accept this UPI collect request to receive your cashback reward
+fraud, Please approve the pending UPI collect request from our side
+ham, Rs.500 received from Ayush via Google Pay successfully
+ham, UPI collect request of Rs.200 from Rahul declined successfully
+ham, You have declined the UPI collect request successfully
+fraud, Hello this is SBI support your UPI account will be blocked please approve the collect request to verify
+fraud, Dear customer I am calling from Paytm support approve the pending UPI request to activate your cashback
+fraud, This is Google Pay verification team kindly accept the collect request to complete your KYC
+fraud, RBI helpline here please approve the UPI collect request of Rs.1 to verify your account
+fraud, PhonePe customer care here approve the pending request to receive your refund
+fraud, Hello sir I mistakenly sent money to your account please accept the request so I can reverse it
+fraud, I am from your bank security team please share OTP to unblock your UPI ID
+fraud, Amazon refund team here approve the collect request to receive your refund
+fraud, Dear user this is NPCI support accept the collect request to verify your UPI account
+fraud, Paytm KYC officer here approve the request to activate your wallet services
+fraud, Hello I am Rahul from bank verification team please approve the request to confirm your identity
+fraud, Flipkart refund department please approve the UPI request to receive your refund amount
+fraud, Dear user your bank manager here approve the collect request to update KYC
+fraud, This is customer support from Google Pay please approve Rs.1 request to confirm your account
+fraud, Dear customer we are calling from PhonePe security team approve the request to secure your account
+fraud, Hello this is SBI branch officer approve the collect request to activate UPI service
+fraud, Bank verification team here share OTP immediately to prevent account suspension
+fraud, Your Paytm wallet cashback is pending approve the request from our support team
+fraud, Dear user I am from bank technical team approve the request to complete account verification
+fraud, RBI subsidy department approve the collect request to receive government benefit
+
+ham, Rs.500 received from Ayush via Google Pay successfully
+ham, UPI collect request of Rs.200 from Rahul declined successfully
+ham, You have declined the UPI collect request successfully
+ham, Rs.1200 paid to Swiggy via PhonePe
+ham, Payment of Rs.450 received from Neha via UPI
+ham, UPI payment of Rs.850 completed successfully
+ham, You have sent Rs.300 to Aman via Google Pay
+ham, Your UPI collect request from Rohit for Rs.250 is pending
+ham, Rs.1500 credited to your account via UPI
+ham, Payment of Rs.90 made to IRCTC successfully
+ham, You paid Rs.320 to Zomato using UPI
+ham, UPI collect request from Ankit for Rs.100 approved
+ham, Rs.700 received from Kunal via PhonePe
+ham, Electricity bill of Rs.980 paid successfully via UPI
+ham, Payment of Rs.250 sent to Priya via Google Pay
+ham, UPI request from Arjun declined successfully
+ham, Rs.120 received from Riya through UPI
+ham, Transaction successful Rs.600 paid to Flipkart
+ham, UPI transfer of Rs.450 completed to Rahul
+ham, Payment of Rs.199 made via PhonePe successfully
