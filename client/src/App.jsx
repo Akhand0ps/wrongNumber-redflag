@@ -61,7 +61,7 @@ const DETECTS = [
   { label: "Fake KYC Alerts", icon: "🪪" },
   { label: "Loan App Fraud", icon: "💸" },
   { label: "Prize / Lottery Scams", icon: "🎰" },
-  { label: "OTP Theft Attempts", icon: "🔐" },
+  { label: "OTP Theft Attempts", icon: "�" },
 ]
 
 export default function App() {
@@ -223,6 +223,21 @@ export default function App() {
                 />
               </div>
             </div>
+
+            {/* Reasons */}
+            {result.reasons?.length > 0 && (
+              <div className="mt-4">
+                <p className="text-[11px] text-white/25 uppercase tracking-wider mb-2">Why flagged</p>
+                <ul className="space-y-1.5">
+                  {result.reasons.map((reason, i) => (
+                    <li key={i} className="flex items-start gap-2 text-xs text-white/55">
+                      <span className={`mt-0.5 shrink-0 w-1.5 h-1.5 rounded-full ${risk.bar}`} />
+                      {reason}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
             {/* Analyzed text */}
             <div className="mt-4 bg-white/[0.03] border border-white/8 rounded-xl p-3">
