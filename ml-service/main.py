@@ -53,20 +53,28 @@ def root():
 
 @app.post("/analyze")
 
-def analyze(request:MessageRequest):
-    vec =vectorizer.transform([request.message])
+def analyze(request: MessageRequest):
+    message = request.message.strip()
+
+    if len(message.split()) < 4:
+        return {
+            "prediction": "unknown",
+            "confidence": 0,
+            "risk_level": "UNKNOWN",
+            "reasons": ["Message too short to analyze — please paste the full suspicious message"]
+        }
+
+    vec = vectorizer.transform([message])
     prediction = model.predict(vec)[0]
     confidence = float(model.predict_proba(vec).max())
 
-    reasons = get_reasons(request.message) if prediction == 'fraud' else []
-
+    reasons = get_reasons(message) if prediction == 'fraud' else []
 
     return {
-        "prediction":prediction,
-        "confidence":round(confidence*100,2),
-        "risk_level":"DANGER" if prediction =="fraud" and confidence >0.80 else "WARNING" if prediction =="fraud" else "SAFE",
-        "reasons":reasons
-
+        "prediction": prediction,
+        "confidence": round(confidence * 100, 2),
+        "risk_level": "DANGER" if prediction == "fraud" and confidence > 0.80 else "WARNING" if prediction == "fraud" else "SAFE",
+        "reasons": reasons
     }
 
 @app.post("/upi_checker")
