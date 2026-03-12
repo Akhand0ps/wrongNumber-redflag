@@ -23,6 +23,8 @@ FRAUD_SIGNALS = [
     (r'loan.*approv|instant loan|no document|no cibil', 'Predatory loan app pattern'),
     (r'galti se|wrong number.*pay|mistake.*sent|accidentally sent', 'Fake wrong transfer scam'),
     (r'aadhaar.*otp|pan.*detail|card.*number.*cvv', 'Asks for sensitive personal/financial details'),
+    (r'send.{0,20}(crore|lakh|rupee|ruppe|rs\.?\s*\d+)', 'Demands direct money transfer — classic scam pattern'),
+    (r'account.{0,15}(block|suspend|deactivat)', 'Threatens account blocking or suspension'),
 ]
 
 def get_reasons(message:str)->list:
@@ -53,22 +55,37 @@ def root():
 
 @app.post("/analyze")
 
+@app.post("/analyze")
 def analyze(request: MessageRequest):
     message = request.message.strip()
 
-    if len(message.split()) < 4:
+    words = message.split()
+    if len(words) < 4 or (len(words) == 1 and len(message) > 20):
         return {
             "prediction": "unknown",
             "confidence": 0,
             "risk_level": "UNKNOWN",
-            "reasons": ["Message too short to analyze — please paste the full suspicious message"]
+            "reasons": ["Please paste a complete message to analyze — single words and random text cannot be assessed"]
         }
 
     vec = vectorizer.transform([message])
     prediction = model.predict(vec)[0]
     confidence = float(model.predict_proba(vec).max())
 
-    reasons = get_reasons(message) if prediction == 'fraud' else []
+    # Always check signals regardless of ML prediction
+    reasons = get_reasons(message)
+
+    # Override ML if strong rule-based signals found
+    if len(reasons) >= 2 and prediction != 'fraud':
+        prediction = 'fraud'
+        confidence = max(confidence, 0.85)
+    elif len(reasons) == 1 and prediction != 'fraud':
+        prediction = 'fraud'
+        confidence = max(confidence, 0.72)
+
+    # Clear reasons if no signals and ML says safe
+    if prediction != 'fraud':
+        reasons = []
 
     return {
         "prediction": prediction,
